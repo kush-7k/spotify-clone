@@ -78,3 +78,12 @@ Upload song
 Upload images
 
 ![Clone1pic](https://github.com/kush-7k/spotify-clone/assets/113313092/8e7bec1c-ab84-40fa-a872-6d3829964b0e)
+
+## .env
+
+Do not forget to add your env variables it should look like this
+
+CONVEX_DEPLOYMENT
+
+NEXT_PUBLIC_CONVEX_URL
+
