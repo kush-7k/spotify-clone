@@ -10,7 +10,8 @@ export const store = mutation({
             throw new ConvexError("Called storeUser without authenticated user");
         }
 
-        // check if user is already stored
+        
+        
         const user = await ctx.db
             .query("users")
             .withIndex("by_token", (q) =>
